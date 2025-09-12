@@ -5,11 +5,13 @@ import SearchIcon from '@mui/icons-material/Search';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+
 const Header = () => {
   return (
   <div className='heder_outer_container'>
         <div className='header-container'>
             <div className='header_left'>
+                
                 <ul>
                     <li><img src={Netflixlogo} alt="netflixlogo" width="100"/></li>
                     <li>Home</li>
